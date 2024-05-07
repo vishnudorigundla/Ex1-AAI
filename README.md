@@ -1,7 +1,7 @@
-<H3> Name : D. Vishnu vardhan reddy. </H3>
-<H3>Register No : 212221230023. </H3>
+<H3> Name : D.Vishnu vardhan reddy </H3>
+<H3>Register No : 2122212300023. </H3>
 <H3> Experiment 1</H3>
-<H3>DATE : 27.02.2024</H3>
+<H3>DATE : 22.02.2024</H3>
 <H1 ALIGN=CENTER> Implementation of Bayesian Networks</H1>
 
 ## Aim :
@@ -79,14 +79,16 @@ bbn = Bbn() \
     .add_edge(Edge(W, RT, EdgeType.DIRECTED))
 
 join_tree = InferenceController.apply(bbn)
-pos={0: (-1,0), 1: (-1, 0.5), 2: (1, 0), 3:(0,-0.5)}
+pos={1: (-1,0), 0: (-1, 0.5), 2: (1, 0), 3:(0,-0.5)}
+
+
 
 options = {
     "font_size": 16,
     "node_size": 4000,
-    "node_color": "yellow",
-    "edgecolors": "blue",
-    "edge_color": "purple",
+    "node_color": "white",
+    "edgecolors": "black",
+    "edge_color": "black",
     "linewidths": 5,
     "width": 5,}
 
@@ -104,7 +106,7 @@ plt.show()
 ![image](https://github.com/Adithya-Siddam/Ex1-AAI/assets/93427248/1df4f88e-f4bb-4ecb-9fd1-47c139fce23a)
 
 ### Network : 
-![image](https://github.com/Adithya-Siddam/Ex1-AAI/assets/93427248/8248293e-3f11-4f2a-bcce-603868341416)
+![image](https://github.com/Adithya-Siddam/Ex1-AAI/assets/93427248/1d09a626-38f8-492c-aa7d-5cbea2d2ecfc)
 ## Result:
-   Thus a Bayesian Network is generated using Python
+   Thus a Bayesian Network is generated using Python.
 
